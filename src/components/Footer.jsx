@@ -7,7 +7,7 @@ const Footer = () => {
    
   return (
 <div class="bg-blue-300">
-        <div class="w-3/5 flex  items-center font-bebas text-white text-xl">
+        <div class="w-4/5 flex justify-around items-center font-bebas text-white text-3xl">
         <img src="/src/img/logo.png" className='h-auto max-w-[80px]'/>
         <img src="/src/img/fb.png" className='h-auto max-w-[40px]'/>
         <img src="/src/img/ig.png" className='h-auto max-w-[40px]'/>

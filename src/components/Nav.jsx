@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <div class="bg-blue-300">
-        <div class="w-3/5 flex justify-around items-center font-bebas text-white text-3xl">
+        <div class="w-4/5 flex justify-around items-center font-bebas text-white text-3xl">
  <Link  to="/">
  <img src="/src/img/logo.png" className='h-auto max-w-[100px]'/>
         </Link>
@@ -18,7 +18,7 @@ const Nav = () => {
             <h1>Schedule</h1>
         </Link>
         <Link className="nav-item" to="/pages/Registration">
-            <h1>2024 Try Outs</h1>
+            <h1>Registration</h1>
         </Link>
         <Link   className="nav-item"  to="/pages/ContactUs">
             <h1>Contact Us</h1>
